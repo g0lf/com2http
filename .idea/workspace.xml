@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ede9fd65-3833-4edf-bddc-4f4158e717ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jssc-2.7.0/jssc-2.7.0-src.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jssc-2.7.0/jssc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jssc_2_7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/com2http/com2http.jar" afterPath="$PROJECT_DIR$/out/artifacts/com2http/com2http.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com2http.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com2http.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com2http.iml" afterPath="$PROJECT_DIR$/com2http.iml" />
     </list>
     <ignored path="com2http.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -248,12 +243,20 @@
       <option name="presentableId" value="Default" />
       <updated>1475250436917</updated>
       <workItem from="1475250450612" duration="898000" />
-      <workItem from="1475275471066" duration="284000" />
+      <workItem from="1475275471066" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="add com library">
+      <created>1475275784472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475275784472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1182000" />
+    <option name="totallyTimeSpent" value="1214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -314,6 +317,14 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add com library" />
+    <option name="LAST_COMMIT_MESSAGE" value="add com library" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
