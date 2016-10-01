@@ -1,1 +1,1 @@
-# com2http
+# ru.connector.com2http.com2http
