@@ -21,6 +21,8 @@ public class Settings {
     public static final String COM_STOPBIT = "com.stopbit";
     public static final String COM_PARITY = "com.parity";
 
+    public static final String HTTP_URL = "http.url";
+
 
     public Settings(String path) throws Exception {
         try (FileInputStream fis = new FileInputStream(path)) {
