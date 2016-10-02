@@ -1,2 +1,4 @@
 Manifest-Version: 1.0
-
+Application-Name: com2http
+Implementation-Version: 1.0
+Created-By: g0lf
