@@ -13,7 +13,7 @@ public class Settings {
 
     private final static Logger log = LoggerFactory.getLogger(Settings.class);
 
-    private Properties properties = new Properties();
+    private static Properties properties = new Properties();
 
     public static final String COM_NAME = "com.name";
     public static final String COM_BAUDRATE = "com.baudrate";
@@ -22,9 +22,12 @@ public class Settings {
     public static final String COM_PARITY = "com.parity";
 
     public static final String HTTP_URL = "http.url";
+    public static final String HTTP_AUTH_URL = "http.auth_url";
+    public static final String HTTP_AUTH_LOGIN = "http.auth.login";
+    public static final String HTTP_AUTH_PASSWORD = "http.auth.password";
+    public static final String HTTP_AUTH_FLAG = "http.auth.flag";
 
-
-    public Settings(String path) throws Exception {
+    public static  void loadSettings(String path) throws Exception {
         try (FileInputStream fis = new FileInputStream(path)) {
             properties.load(fis);
         } catch (Exception e) {
@@ -33,7 +36,7 @@ public class Settings {
         }
     }
 
-    public int getIntParam(String paramName, int defaultValue) {
+    public static int getIntParam(String paramName, int defaultValue) {
         String prop = properties.getProperty(paramName);
         if (prop != null) {
             try {
@@ -47,7 +50,7 @@ public class Settings {
         return defaultValue;
     }
 
-    public String getParam(String paramName, String defaultValue) {
+    public static String getParam(String paramName, String defaultValue) {
         return properties.getProperty(paramName, defaultValue);
     }
 }

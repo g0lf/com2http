@@ -16,19 +16,19 @@ public class com2http {
         log.info("com2http started");
 
         log.info("try to read settings...");
-        Settings settings = new Settings(args[0]);
+        Settings.loadSettings(args[0]);
 
         log.info("try to create reader...");
         ComReader comReader = new ComReader(
-                settings.getParam(Settings.COM_NAME, "COM1"),
-                settings.getIntParam(Settings.COM_BAUDRATE, SerialPort.BAUDRATE_9600),
-                settings.getIntParam(Settings.COM_DATABIT, SerialPort.DATABITS_8),
-                settings.getIntParam(Settings.COM_STOPBIT, SerialPort.STOPBITS_1),
-                settings.getIntParam(Settings.COM_PARITY, SerialPort.PARITY_NONE)
+                Settings.getParam(Settings.COM_NAME, "COM1"),
+                Settings.getIntParam(Settings.COM_BAUDRATE, SerialPort.BAUDRATE_9600),
+                Settings.getIntParam(Settings.COM_DATABIT, SerialPort.DATABITS_8),
+                Settings.getIntParam(Settings.COM_STOPBIT, SerialPort.STOPBITS_1),
+                Settings.getIntParam(Settings.COM_PARITY, SerialPort.PARITY_NONE)
         );
 
         log.info("create http sender...");
-        HttpSender httpSender = new HttpSender(settings.getParam(Settings.HTTP_URL, ""));
+        HttpSender httpSender = new HttpSender();
         log.info("create send thread...");
         HttpThread httpThread = new HttpThread(httpSender, comReader.getDataDeque());
         httpThread.start();

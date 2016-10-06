@@ -27,11 +27,12 @@ public class HttpThread extends Thread{
         while (!isInterrupted()) {
             try {
                 if (!dataDeque.isEmpty()) {
-                    log.trace("try to send data...");
-                    httpSender.send(dataDeque.pop());
+                    String data = dataDeque.pop();
+                    log.trace("try to send data '{}'", data);
+                    httpSender.send(data);
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                log.error("", e);
             }
         }
     }
