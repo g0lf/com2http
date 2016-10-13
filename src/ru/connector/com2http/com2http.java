@@ -8,11 +8,17 @@ import org.slf4j.LoggerFactory;
 /**
  * Created by g0lf on 01.10.2016.
  */
-public class com2http {
+public class com2http implements Runnable {
 
     private final static Logger log = LoggerFactory.getLogger(com2http.class);
 
-    public static void main(String[] args) throws Exception {
+    private String[] args;
+
+    public com2http(String[] args) {
+        this.args = args;
+    }
+
+    public void init() throws Exception {
         log.info("com2http started");
 
         log.info("try to read settings...");
@@ -39,4 +45,12 @@ public class com2http {
 
     }
 
+    @Override
+    public void run() {
+        try {
+            init();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
