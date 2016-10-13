@@ -1,0 +1,11 @@
+<project>
+
+    <property name="artifact.output.com2http" value="${basedir}/out/artifacts/com2http"/>
+    <property name="com2http.setting.file" value="${basedir}/settings/com2http.properties"/>
+
+    <target name="run">
+        <copy file="${artifact.output.com2http}/com2http.jar" todir="windows-service/"/>
+        <copy file="${com2http.setting.file}" todir="windows-service/"/>
+    </target>
+
+</project>
