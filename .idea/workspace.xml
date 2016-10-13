@@ -7,19 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede9fd65-3833-4edf-bddc-4f4158e717ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/com2http/com2http.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/AuthorizationFailedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/ComReader$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/ComReader$PortReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/ComReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/HttpSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/HttpThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/Settings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/WindowsServiceWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com2http/ru/connector/com2http/com2http.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/bin/wrapper.exe" afterPath="$PROJECT_DIR$/windows-service/bin/wrapper.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/bin/wrapperw.exe" afterPath="$PROJECT_DIR$/windows-service/bin/wrapperw.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/conf/wrapper-license.conf" afterPath="$PROJECT_DIR$/windows-service/conf/wrapper-license.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/conf/wrapperw.conf" afterPath="$PROJECT_DIR$/windows-service/conf/wrapperw.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/lib/wrapper.dll" afterPath="$PROJECT_DIR$/windows-service/lib/wrapper.dll" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/Installcom2http-NT.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/Installcom2http-NT.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/Pausecom2http-NT.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/Pausecom2http-NT.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/Startcom2http-NT.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/Startcom2http-NT.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/Stopcom2http-NT.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/Stopcom2http-NT.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/Uninstallcom2http-NT.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/Uninstallcom2http-NT.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/windows_service/scripts/com2http.bat" afterPath="$PROJECT_DIR$/windows-service/scripts/com2http.bat" />
     </list>
     <ignored path="com2http.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,20 +191,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="windows-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com2http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com2http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -709,7 +694,7 @@
       <workItem from="1475691330552" duration="6913000" />
       <workItem from="1475774299024" duration="7216000" />
       <workItem from="1476355190231" duration="6889000" />
-      <workItem from="1476377079394" duration="591000" />
+      <workItem from="1476377079394" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="add com library">
       <created>1475275784472</created>
@@ -736,7 +721,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52988000" />
+    <option name="totallyTimeSpent" value="53238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
