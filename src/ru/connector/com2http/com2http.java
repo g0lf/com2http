@@ -2,6 +2,7 @@ package ru.connector.com2http;
 
 
 import jssc.SerialPort;
+import jssc.SerialPortList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,8 @@ public class com2http {
 
     public static void main(String[] args) throws Exception {
         log.info("com2http started");
+
+        log.info("List of serial ports: " + String.join(",", SerialPortList.getPortNames()));
 
         log.info("try to read settings...");
         Settings.loadSettings(args[0]);
