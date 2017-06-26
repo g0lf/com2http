@@ -1,5 +1,5 @@
-logs/
-.idea/workspace.xml
+/logs/
 /out/
 /.gradle/
-/build
+/build/
+/.idea/
